@@ -46,11 +46,11 @@ The model was trained and tested using **Random Forest Regressor** and achieved:
 
 ### 📊 Model Performance Summary
 
-| 📈 **Metric**              | 📌 **Value**                |
-| 🔹 **R² Score**            | **0.91** (91%)              |
-| 🔸 **Mean Absolute Error** | **~3.5 kcal**               |
-| ⚙️ **Model Used**          | **Random Forest Regressor** |
-
+| Metric                  | Value               |
+|-------------------------|---------------------|
+| R² Score                | 0.91 (91%)          |
+| Mean Absolute Error     | ~3.5 kcal           |
+| Model Used              | Random Forest Regressor |
 
 ---
 

@@ -1,29 +1,34 @@
-# calorie-burnt-prediction
-# 🔥 Calories Burnt Prediction Web App
+🔥 Calories Burnt Prediction Web App
+This project is a machine learning-based web application that predicts the number of calories a person burns during an exercise session based on their physiological and activity-related data. It uses a trained model integrated into a user-friendly Streamlit interface for real-time predictions.
 
-A Machine Learning-based **Calories Burnt Prediction** system deployed with **Streamlit**. Users input personal and physiological data (age, height, weight, etc.), and the app predicts how many calories were burned during an exercise session.
+📌 Key Features:
+Accepts user inputs: Gender, Age, Height, Weight, Duration, Heart Rate, and Body Temperature.
 
----
+Predicts calories burnt using a trained machine learning model.
 
-## 📌 Table of Contents
+Built with Python, Streamlit, and scikit-learn.
 
-- [calorie-burnt-prediction](#calorie-burnt-prediction)
-- [🔥 Calories Burnt Prediction Web App](#-calories-burnt-prediction-web-app)
-  - [📌 Table of Contents](#-table-of-contents)
-  - [🚀 Project Overview](#-project-overview)
+Simple, interactive UI for health-conscious individuals and fitness applications.
 
-## 🚀 Project Overview
+🧠 How It Works:
+A model is trained using data on physical parameters and calories burned.
 
-This project predicts the number of **calories burnt** during a workout session using user input features such as:
+The trained model (calories_model.pkl) is loaded in a Streamlit app.
 
-- Gender
-- Age
-- Height
-- Weight
-- Duration of Exercise
-- Heart Rate
-- Body Temperature
+Users enter their data, and the model predicts calories burnt in real time.
 
-The machine learning model was trained on a real-world dataset and saved as `calories_model.pkl`, which is loaded and used in the Streamlit app.
+📂 Files Included:
+calorie_burnt.ipynb – Notebook for data preprocessing, EDA, and model training.
 
+calories_model.pkl – Saved trained model using joblib.
+
+streamlit_app.py – Streamlit script for the interactive prediction app.
+
+📈 Model Performance:
+The machine learning model was trained and evaluated using the Random Forest Regressor.
+
+Metric	                                Value
+R² Score	                            0.91 (91%)
+MAE (Mean Absolute Error)	            ~3.5 kcal
+Model Used	                            RandomForestRegressor
 
